@@ -11,3 +11,14 @@ jQuery(document).ready(function () {
         );
     });
 });
+
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 1){
+        jQuery('#header-section').addClass("header-post-scroll").removeClass("header-pre-scroll");
+        jQuery('#header-logo-link').show();
+    }
+    else{
+        jQuery('#header-section').addClass("header-pre-scroll").removeClass("header-post-scroll");
+        jQuery('#header-logo-link').hide();
+    }
+});
