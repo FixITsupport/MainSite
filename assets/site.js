@@ -15,10 +15,12 @@ jQuery(document).ready(function () {
 jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > 1){
         jQuery('#header-section').addClass("header-post-scroll").removeClass("header-pre-scroll");
-        jQuery('#header-logo-link').show();
+        jQuery('#header-logo-link-white').hide();
+        jQuery('#header-logo-link-black').show();
     }
     else{
         jQuery('#header-section').addClass("header-pre-scroll").removeClass("header-post-scroll");
-        jQuery('#header-logo-link').hide();
+        jQuery('#header-logo-link-white').show();
+        jQuery('#header-logo-link-black').hide();
     }
 });
