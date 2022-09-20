@@ -70,7 +70,9 @@ section {
 }
 .header-pre-scroll {
     background:rgba(255,255,255,0)!important;
-    color: #fff!important;
+}
+.header-pre-scroll .nav-item a {
+    color:#fff!important;
 }
 .header-post-scroll {
     background:rgba(255,255,255,1)!important;
