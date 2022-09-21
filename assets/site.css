@@ -3,23 +3,22 @@ COLORS:
 Dark Blue - #586c7e
 Curious Blue - #2f8bc1
 */
+
 body {
     font-family: "Montserrat", sans-serif;
 }
 body::-webkit-scrollbar {
     width: 1rem;
 }
-
 body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
-
 body::-webkit-scrollbar-thumb {
     background-color: #586c7e;
     outline: 1px solid #586c7e;
 }
 p {
-    font-size:  23px;
+    font-size: 23px;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-variant: normal;
@@ -27,8 +26,7 @@ p {
     color: #333;
     margin: 0;
 }
-a,
-a:hover {
+a, a:hover {
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -36,46 +34,27 @@ a:hover {
     -webkit-transition: all 0.4s ease-in-out;
     text-decoration: none !important;
 }
-a,
-a:focus,
-a:hover,
-button,
-button:focus,
-button:hover,
-checkbox,
-checkbox:focus,
-checkbox:hover,
-input,
-input:focus,
-input:hover,
-select,
-select:focus,
-select:hover {
+a, a:focus, a:hover, button, button:focus, button:hover, checkbox, checkbox:focus, checkbox:hover, input, input:focus, input:hover, select, select:focus, select:hover {
     outline: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
 h2 {
-    font-size:36px;
+    font-size: 36px;
 }
 section {
     clear: both;
 }
 .header-pre-scroll {
-    background:rgba(255,255,255,0)!important;
+    background: rgba(255, 255, 255, 0)!important;
 }
 .header-pre-scroll .nav-item a {
-    color:#fff!important;
+    color: #fff!important;
 }
 .header-post-scroll {
-    background:rgba(255,255,255,1)!important;
+    background: rgba(255, 255, 255, 1)!important;
 }
 .header-section {
     transition: all 1.4s ease;
@@ -95,14 +74,50 @@ section {
     padding: 0;
 }
 #header-logo-link {
-    display:none;
+    display: none;
 }
 .logo {
     padding: 20px 0;
     transition: all 1.4s ease;
 }
 .logo img {
-    max-height:70px;
+    max-height: 70px;
+}
+.scrollToTop_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+.scrollToTop_wrapper a {
+    display: inline-block;
+    border-radius: 50%;
+}
+.scrollToTop_wrapper a:hover .top {
+    border: 0.5em solid #e74c3c;
+}
+.scrollToTop_wrapper a:hover .top:after {
+    border-top: 0.5em solid #e74c3c;
+    border-right: 0.5em solid #e74c3c;
+}
+.scrollToTop_btn {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    margin-right: 0.75em;
+}
+.scrollToTop_btn:after {
+    content: '';
+    display: inline-block;
+    margin-top: 1.1em;
+    margin-left: 0.75em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #333;
+    border-right: 0.5em solid #333;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 .main-menu .nav-link {
     color: #999;
@@ -126,20 +141,20 @@ section {
 }
 .ctaLogo {
     margin-top: 200px;
-    padding-left:60px;
-    max-height:175px;
+    padding-left: 60px;
+    max-height: 175px;
 }
 .contactUsLogo {
     margin-top: 10px;
-    padding-left:60px;
-    max-height:175px;
+    padding-left: 60px;
+    max-height: 175px;
 }
-.sectionPadding{
-    padding-top:5rem!important;
-    padding-bottom:5rem!important;
+.sectionPadding {
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
 }
 .call-to-action-section {
-    margin-top:-100px;
+    margin-top: -100px;
     background-image: url(../assets/images/header-background.jpg);
     min-height: 850px;
     background-attachment: fixed;
@@ -148,28 +163,28 @@ section {
     background-size: cover;
 }
 .call-to-action-section h2 {
-    color:#fff;
-    font-size:48px;
-    line-height:85px;
+    color: #fff;
+    font-size: 48px;
+    line-height: 85px;
 }
 .our-mission-section {
     background: #586c7e;
     color: #fff;
 }
-.our-mission-section p{
+.our-mission-section p {
     color: #fff;
     font-size: 23px;
 }
-.services-section .service-item{
+.services-section .service-item {
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 30px;
 }
-.services-section .service-item p{
-    text-align:center;
-    font-size:23px;
-    font-weight:800;
-    padding-top:3px;
+.services-section .service-item p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    padding-top: 3px;
 }
 .who-we-are-section {
     background: #586c7e;
@@ -177,7 +192,7 @@ section {
 }
 .who-we-are-section p {
     color: #fff;
-    font-size:23px;
+    font-size: 23px;
 }
 .contact-us-section {
     background: #586c7e;
@@ -329,7 +344,6 @@ section {
 .enquire li {
     padding-right: 4px;
 }
-
 .formErrorMessage .card-content {
     text-align: center !important;
 }
@@ -343,11 +357,11 @@ section {
     color: #ffffff;
 }
 /*************************media starts************************/
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .ctaLogo,
-    .contactUsLogo {
-        padding-left:0px;
-        max-height:155px;
+    .ctaLogo, .contactUsLogo {
+        padding-left: 0px;
+        max-height: 155px;
     }
     .header-section {
         width: 100%;
@@ -392,9 +406,7 @@ section {
         border-right: 0px solid #ccc;
         line-height: 25px;
     }
-    .logo img {
-
-    }
+    .logo img {}
     .header-section .navbar-toggler {
         position: absolute;
         right: 10px;
@@ -410,8 +422,6 @@ section {
         padding: 10px 0 5px;
     }
 }
-
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .header-section {
         width: 100%;
@@ -466,8 +476,7 @@ section {
         width: 100%;
     }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {}
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
     .farmer-section {
         padding-bottom: 650px !important;
