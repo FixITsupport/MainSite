@@ -111,12 +111,8 @@
     <div class="container text-center">
       <p class="text-center pb-5">
           Please fill out the form below. We look forward to chatting about how we can help!     </p>
-      
     </div>
-<div class="container text-center" style="
-    height: 300px;
-    width: 724px;
-">
+<div class="container text-center">
 
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSek46jlk3V4yGPUIjKlRFMo_r0cOyc9-o6CzHBA5kzz6MPHkg/formResponse" method="POST" target="_self">
 
@@ -134,7 +130,7 @@
     <input type="email" name="entry.1558582620" class="form-control" placeholder="Email" aria-label="Email" required>
   </div>
   <div class="col">
-    <input type="text" name="entry.288713975" class="form-control" placeholder="Your Phone Number" aria-label="Phone" required>
+    <input type="text" name="entry.288713975" class="form-control" placeholder="Your Phone Number" aria-label"Phone" required>
   </div>
   <div class="col">
     <input type="text" name="entry.1332739097" class="form-control" placeholder="Your Zip Code" aria-label="zip" required>
@@ -147,11 +143,24 @@
   <textarea name="entry.1060472253" class="form-control" placeholder="Brief Description of IT Services Requested" id="floatingTextarea2" style="height: 100px" required></textarea>
 </div>
 </div>
-<input type="submit" class="btn btn-primary" value="Submit" style="
-    width: 325.6px;
-">
+<input type="submit" class="btn btn-primary">
 </div>
 </form>
+
+<style>
+  /* Add styles for larger screens */
+  @media (min-width: 768px) {
+    /* Change width of form container */
+    .container.text-center {
+      width: 724px;
+    }
+    /* Change width of submit button */
+    input[type="submit"] {
+      width: 325.6px;
+    }
+  }
+</style>
+</div>
     <div class="pt-5 container text-center">
       <p class="text-center pb-4">
         <strong>Email:</strong> <a href="mailto:luke@fixitsupport.tech">luke@fixitsupport.tech</a><br/>
